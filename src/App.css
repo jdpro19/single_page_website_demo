@@ -1,3 +1,18 @@
 .app-component {
-    background-color: brown;
+    background-color: #c4e2ff;
+}
+
+.heading {
+    font-size : 25pt;
+    font-family : "Poppins", Sans-serif;
+    text-align : center;
+    padding-top : 3rem;
+    letter-spacing: 2px;;    
+}
+
+.subheading {
+    font-family : 'Courier New', Courier, monospace;
+    font-size : 20pt;  
+    text-align: center;
+    padding: 10px 40px;
 }

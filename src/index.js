@@ -9,3 +9,10 @@ ReactDom.render(
     </div>
     , document.getElementById('root')
 );
+
+const toggleMenu = document.getElementById('toggleMenu');
+const navlistId = document.getElementById('navlistId'); 
+
+toggleMenu.addEventListener('click', () => {
+    navlistId.classList.toggle('active');
+});
