@@ -2,7 +2,16 @@ import '../../Navbar.css';
 function Navbar() {
     return (
         <div className="navbar">
-            <h3>Navbar will be here..</h3>
+            <nav className="nav">
+                <h2>Zephyr Solutions</h2>
+
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Members</a></li>
+                    <li><a href="#">Write</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+            </nav>
         </div>        
     );
 }
