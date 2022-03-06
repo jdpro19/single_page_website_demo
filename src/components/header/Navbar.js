@@ -1,16 +1,32 @@
 import '../../Navbar.css';
 function Navbar() {
     return (
-        <div className="navbar">
-            <nav className="nav">
-                <h2>Zephyr Solutions</h2>
+        <div>
+            <nav className="navbar">
+                <div className="title">
+                    Zephyr Solutions
+                </div>                
 
-                <ul>
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="#">Members</a></li>
-                    <li><a href="#">Write</a></li>
-                    <li><a href="#">Sign in</a></li>
+                <ul className="nav-list" id="navlistId">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Career</a>
+                        {/* <ul class="dropdown">
+                            <li><a href="#">Sub-1</a></li>
+                            <li><a href="#">Sub-2</a></li>
+                            <li><a href="#">Sub-3</a></li>
+                        </ul> */}
+                    </li>                    
+                    <li><a href="#">Contact</a></li>
                 </ul>
+
+                <div className="menu" id="toggleMenu">
+                    <div className="menu-line"></div>
+                    <div className="menu-line"></div>
+                    <div className="menu-line"></div>
+                </div>
+                
             </nav>
         </div>        
     );
