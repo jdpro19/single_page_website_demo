@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/header/Navbar';
 import Button from './components/Button';
+import Card from './components/Card';
 
 function clickMe(){
     alert('Hello');
@@ -22,7 +23,10 @@ function App(){
                         Get In Touch
                     </Button>    
                 </div>
-            </div>            
+            </div> 
+            <div>
+                <Card/>
+            </div>           
         </div>
     );       
     

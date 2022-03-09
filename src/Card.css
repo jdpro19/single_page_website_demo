@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: #fff;
+    width: 270px;
+    height: 480px;
+    margin: 15px;
+    border-radius: 15px;
+    
+}
+
+.card-img{
+    background-color: aqua;
+    height:200px;
+    border-radius: 15px 15px 0 0;    
+}
+
+.card:hover{
+    background-color: gray;
+    box-shadow: 5px 5px 0 0 darkslategray;
+}
