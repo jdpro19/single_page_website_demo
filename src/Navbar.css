@@ -25,6 +25,10 @@
     color : #fff;
 }
 
+.nav-list a:hover{
+    color: #00FFD5;
+}
+
 .menu{
     display: none;
 }
@@ -68,6 +72,21 @@
      width: 100%;
    }
  */
+
+ .dropdown {
+     display: none;
+     position: absolute;
+     width: 150px;
+ }
+
+ .dropdown li{
+     display: block;       
+ }
+
+ .nav-list li:hover > ul {
+     display: block;
+     background-color: #161624;
+ }
 
 @media all and (max-width: 720px) {
     .navbar{

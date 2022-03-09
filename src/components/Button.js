@@ -7,11 +7,17 @@ const Button = styled.button`
     font-size: 12pt;
     padding: 5px 15px;
     border-radius: 18px;
-    box-shadow: 0px 10px 10px gray;
+    box-shadow: 0px 5px 8px gray;
     outline: 0;
     cursor:pointer;
-    width:10%;
+    width:150px;
     height:40px;
+    transition: ease 50ms;
+    &:hover {
+        background-color: #3f51b5;
+    }
+    
+
 `
 
 export default Button;

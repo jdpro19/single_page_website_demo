@@ -12,11 +12,11 @@ function Navbar() {
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Career</a>
-                        {/* <ul class="dropdown">
+                        <ul className="dropdown">
                             <li><a href="#">Sub-1</a></li>
                             <li><a href="#">Sub-2</a></li>
                             <li><a href="#">Sub-3</a></li>
-                        </ul> */}
+                        </ul>
                     </li>                    
                     <li><a href="#">Contact</a></li>
                 </ul>
