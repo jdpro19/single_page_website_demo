@@ -5,20 +5,35 @@
 
 .card{
     background-color: #fff;
-    width: 270px;
-    height: 480px;
-    margin: 15px;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
     border-radius: 15px;
-    
+    font-size: 16px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    letter-spacing: -0.05em;
+    text-align : center;    
 }
 
 .card-img{
     background-color: aqua;
     height:200px;
-    border-radius: 15px 15px 0 0;    
+    border-radius: 15px 15px 0 0;  
+    background-size: cover;  
 }
 
 .card:hover{
-    background-color: gray;
-    box-shadow: 5px 5px 0 0 darkslategray;
+    background-color: white;
+    box-shadow: 2px 2px 0 0 skyblue;
+    cursor: pointer;
+}
+
+.img-1{
+    background-image: url('../public/img/web.png');
+}
+.img-2{
+    background-image: url('../public/img/cloud.png');
+}
+.img-3{
+    background-image: url('../public/img/training.jpeg');
 }

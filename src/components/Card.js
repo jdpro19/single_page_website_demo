@@ -4,25 +4,27 @@ import '../Card.css';
 function Card() {
     return(
         <div>
-            <section className="container">
+            <section className="container">                
                 <div className="card">
-                    <div className="card-img"></div>
-                        <h1>Title goes here</h1>
+                    <div className="card-img img-1">
+
+                    </div>
+                        <h2>Product Development</h2>
+                        <h3>Customized applications for smooth business operation.
+</h3>                    
+                </div>
+                <div className="card">
+                    <div className="card-img img-2">
+
+                    </div>
+                        <h2>Cloud Infrastructure</h2>
                         <h3>Some text here...</h3>                    
                 </div>
                 <div className="card">
-                    <div className="card-img"></div>
-                        <h1>Title goes here</h1>
-                        <h3>Some text here...</h3>                    
-                </div>
-                <div className="card">
-                    <div className="card-img"></div>
-                        <h1>Title goes here</h1>
-                        <h3>Some text here...</h3>                    
-                </div>
-                <div className="card">
-                    <div className="card-img"></div>
-                        <h1>Title goes here</h1>
+                    <div className="card-img img-3">
+
+                    </div>
+                        <h2>Training </h2>
                         <h3>Some text here...</h3>                    
                 </div>
             </section>

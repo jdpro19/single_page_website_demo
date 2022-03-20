@@ -13,7 +13,7 @@ function App(){
             <Navbar/>
             <div className="jumbotron">
                 <div className="heading">
-                    <h1>IT Support tailored for all.</h1>
+                    <h2>IT Support tailored for all.</h2>
                 </div>
                 <div className="subheading">
                     Accelerate your business growth and boost efficiency from day one with fast and effective 24/7 IT Support and Technology Solutions.
